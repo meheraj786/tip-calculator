@@ -3,7 +3,7 @@ const people= document.querySelector(".people")
 
 function increment() {
   if (person<1) {
-    alert("no")
+    alert("minimum 1 person required")
   }else{
     person++
     people.innerHTML=person
@@ -12,7 +12,7 @@ function increment() {
 }
 function decrement() {
   if (person<=1) {
-    alert("no")
+    alert("minimum 1 person required")
   }else{
     person--
     people.innerHTML=person

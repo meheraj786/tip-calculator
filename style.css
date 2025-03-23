@@ -31,6 +31,9 @@ body{
   padding: 50px;
   background: #FFFFFF;
 }
+#result p{
+  margin: 5px 0;
+}
 hr{
-  border: 2px dotted black;
+  border: 1px dotted black;
 }

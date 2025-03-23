@@ -18,7 +18,7 @@ body{
 }
 
 #main{
-  background: rgba(255, 255, 255, 0.0); 
+  background: rgba(255, 255, 255, 0.1); 
   backdrop-filter: blur(5px); 
   padding: 100px;
   border-radius: 20px;
@@ -33,6 +33,7 @@ body{
   text-align: center;
   padding: 50px;
   background: #FFFFFF;
+  transition: all 0.5s;
 }
 #result p{
   margin: 5px 0;
@@ -40,4 +41,3 @@ body{
 hr{
   border: 1px dotted black;
 }
-

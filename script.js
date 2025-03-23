@@ -19,6 +19,8 @@ function decrement() {
   }
   
 }
+let payable= document.querySelector(".payable")
+payable.parentElement.style.display="none"
 
 function calc(){
 let total= document.querySelector(".total").value
@@ -33,7 +35,9 @@ const totalInt= parseInt(total)
 
 if (total=="" || tip=="" ) {
   alert("input something")
+  payable.parentElement.style.display="none"
 }else{
+  payable.parentElement.style.display="block"
 totalBill.innerHTML=`total bill : ${totalInt}`
 tipAmount.innerHTML=`tip amount : ${(totalInt*(tipInt/100))}`
 tax.innerHTML=`Tax %5 amount : ${(totalInt*(5/100))}`
@@ -41,3 +45,5 @@ payable.innerHTML=`Total payable : ${totalInt+(totalInt*(tipInt/100))+(totalInt*
 perPerson.innerHTML=`Per Person Cost : ${(totalInt+(totalInt*(tipInt/100))+(totalInt*(5/100)))/person}`
 }
 }
+
+

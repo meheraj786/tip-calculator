@@ -28,6 +28,54 @@ body{
   align-items: center;
   justify-content: center; 
 }
+input{
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding: 0 20px;
+  margin: 10px 0;
+}
+label{
+  font-size: 28px;
+  color: #000000;
+  font-weight: 600;
+}
+button{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+}
+button:hover{
+  background: #9E4B1E;
+  color: #FFFFFF;
+  transition: all 0.5s;
+}
+.person{
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  margin: 30px 0;
+  color: #000000;
+}
+.calculate{
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background: #9E4B1E;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.calculate:hover{
+  background: #7A3B14;
+  transition: all 0.5s;
+}
 
 #result{
   text-align: center;

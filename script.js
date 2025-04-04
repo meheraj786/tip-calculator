@@ -42,7 +42,7 @@ totalBill.innerHTML=`total bill : ${totalInt}`
 tipAmount.innerHTML=`tip amount : ${(totalInt*(tipInt/100))}`
 tax.innerHTML=`Tax %5 amount : ${(totalInt*(5/100))}`
 payable.innerHTML=`Total payable : ${totalInt+(totalInt*(tipInt/100))+(totalInt*(5/100))}`
-perPerson.innerHTML=`Per Person Cost : ${(totalInt+(totalInt*(tipInt/100))+(totalInt*(5/100)))/person}`
+perPerson.innerHTML=`Per Person Cost : ${((totalInt+(totalInt*(tipInt/100))+(totalInt*(5/100)))/person).toFixed(2)}`
 }
 }
 
